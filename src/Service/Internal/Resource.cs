@@ -14,12 +14,6 @@ internal abstract class BaseResource
     /// Gets or sets the JSON representation of the resource.
     /// </summary>
     public abstract string Json { get; }
-
-
-    public static T Create<T>() where T : BaseResource, new()
-    {
-        return new T();
-    }
 }
 
 /// <summary>
