@@ -1,4 +1,4 @@
-## OpenSky.Core | Open Sky Core
+## OpenSky.Core
 
 **OpenSky.Core** is a comprehensive .NET library designed for seamless interaction with the [WeatherAPI.com](https://www.weatherapi.com/) APIs. This library wraps the WeatherAPI functionalities in C#, providing developers with an intuitive and efficient way to integrate weather data into their applications.
 

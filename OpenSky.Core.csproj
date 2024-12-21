@@ -6,11 +6,11 @@
         <Nullable>enable</Nullable>
         <Description>OSS.Core is a comprehensive .NET library designed for seamless interaction with the WeatherAPI.com APIs. This library wraps the WeatherAPI functionalities in C#, providing developers with an intuitive and efficient way to integrate weather data into their applications.</Description>
         <PackageIcon>logo.png</PackageIcon>
-        <Title>OSS Core</Title>
+        <Title>OpenSky Core</Title>
         <Authors>Selçuk Güral</Authors>
-        <PackageProjectUrl>https://github.com/selcukgural/oss.core</PackageProjectUrl>
+        <PackageProjectUrl>https://github.com/selcukgural/opensky.core</PackageProjectUrl>
         <LicenseUrl>https://github.com/selcukgural/oss.core?tab=GPL-3.0-1-ov-file</LicenseUrl>
-        <RepositoryUrl>https://github.com/selcukgural/oss.core</RepositoryUrl>
+        <RepositoryUrl>https://github.com/selcukgural/opensky.core</RepositoryUrl>
         <PackageTags>weather,api,rainy,sunny,snowy,core,open-source,free-software,openskyservice</PackageTags>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <RepositoryType>github</RepositoryType>
