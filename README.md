@@ -1,6 +1,6 @@
-## OSS.Core | Open Sky Service Core
+## OpenSky.Core | Open Sky Core
 
-**OSS.Core** is a comprehensive .NET library designed for seamless interaction with the [WeatherAPI.com](https://www.weatherapi.com/) APIs. This library wraps the WeatherAPI functionalities in C#, providing developers with an intuitive and efficient way to integrate weather data into their applications.
+**OpenSky.Core** is a comprehensive .NET library designed for seamless interaction with the [WeatherAPI.com](https://www.weatherapi.com/) APIs. This library wraps the WeatherAPI functionalities in C#, providing developers with an intuitive and efficient way to integrate weather data into their applications.
 
 ### Key Features
 
@@ -16,8 +16,8 @@ This project is an excellent tool for developers looking to integrate weather da
 Here is an example of how to use the `OpenSkyService` to search for a location. This example demonstrates how to configure the service and make a request to search for a location.
 
 ```csharp
-using OSS.Core.Configuration;
-using OSS.Core.Service;
+using OpenSky.Core.Configuration;
+using OpenSky.Core.Service;
 
 // Create the configuration settings with the API key
 var ossConfig = new OssConfiguration { ApiKey = "your-api-key" };
