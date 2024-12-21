@@ -11,6 +11,19 @@
 
 This project is an excellent tool for developers looking to integrate weather data into their applications with ease and reliability.
 
+### Installation
+
+[Nuget Package](https://www.nuget.org/packages/OpenSky.Core/)
+
+.NET CLI:
+```bash
+  dotnet add package OpenSky.Core --version 1.0.0 
+```
+Package Manager
+```bash
+  Install-Package OpenSky.Core -Version 1.0.0
+```
+
 ### Example Usage
 
 Here is an example of how to use the `OpenSkyService` to search for a location. This example demonstrates how to configure the service and make a request to search for a location.
