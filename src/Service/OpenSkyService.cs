@@ -26,8 +26,16 @@ public sealed class OpenSkyService : IOpenSkyService
     /// <param name="ossConfiguration">The configuration settings for the API.</param>
     public OpenSkyService(HttpClient httpClient, OssConfiguration ossConfiguration)
     {
+        ArgumentNullException.ThrowIfNull(httpClient, nameof(httpClient));
+        ArgumentNullException.ThrowIfNull(ossConfiguration, nameof(ossConfiguration));
+        
         _httpClient = httpClient;
         _ossConfiguration = ossConfiguration;
+        
+        if(_httpClient.BaseAddress == null)
+        {
+            _httpClient.BaseAddress = new Uri(ossConfiguration.GetBaseUrl());
+        }
     }
 
     /// <inheritdoc />
@@ -384,7 +392,7 @@ public sealed class OpenSkyService : IOpenSkyService
         try
         {
             var queryString = BuildQueryString(q, source);
-            var httpResponseMessage = await _httpClient.PostAsync(queryString, null, cancellationToken);
+            var httpResponseMessage = await _httpClient.GetAsync(queryString, cancellationToken);
             var response = await httpResponseMessage.Content.ReadAsStringAsync(cancellationToken);
 
             return format switch

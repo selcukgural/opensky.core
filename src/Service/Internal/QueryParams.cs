@@ -50,7 +50,7 @@ internal sealed class QueryParams : ConcurrentDictionary<string, string>
     /// <returns>The current instance of <see cref="QueryParams"/>.</returns>
     public QueryParams AddIfNotNull(string key, string? value)
     {
-        return !string.IsNullOrEmpty(value) ? Add(key, value) : this;
+        return !string.IsNullOrEmpty(key) && !string.IsNullOrEmpty(value) ? Add(key, value) : this;
     }
 }
 
