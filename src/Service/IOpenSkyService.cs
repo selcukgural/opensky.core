@@ -1,8 +1,9 @@
-using OSS.Core.Model;
-using OSS.Core.Response;
+using OpenSky.Core.Model;
+using OpenSky.Core.Response;
+
 // ReSharper disable InconsistentNaming
 
-namespace OSS.Core.Service;
+namespace OpenSky.Core.Service;
 
 public interface IOpenSkyService
 {

@@ -1,7 +1,7 @@
 using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 
-namespace OSS.Core.Configuration;
+namespace OpenSky.Core.Configuration;
 
 /// <summary>
 /// Represents the configuration settings for the API.

@@ -2,14 +2,14 @@ using System.Net;
 using System.Text.Json;
 using System.Web;
 using System.Xml.Serialization;
-using OSS.Core.Configuration;
-using OSS.Core.Model;
-using OSS.Core.Response;
-using OSS.Core.Service.Internal;
+using OpenSky.Core.Configuration;
+using OpenSky.Core.Model;
+using OpenSky.Core.Response;
+using OpenSky.Core.Service.Internal;
 
 // ReSharper disable InconsistentNaming
 
-namespace OSS.Core.Service;
+namespace OpenSky.Core.Service;
 
 /// <summary>
 /// Represents a service for interacting with the OpenSky API.

@@ -1,7 +1,7 @@
 
 using System.Text.Json.Serialization;
 
-namespace OSS.Core.Model;
+namespace OpenSky.Core.Model;
 
 /// <summary>
 /// Air Quality data is returned in the Forecast API, History API and Realtime API response. 

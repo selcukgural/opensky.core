@@ -1,6 +1,6 @@
 using System.Text.Json.Serialization;
 
-namespace OSS.Core.Model;
+namespace OpenSky.Core.Model;
 
 /// <summary>
 /// Represents astronomical data including sunrise, sunset, moonrise, moonset, moon phase, moon illumination, and whether the moon or sun is up.

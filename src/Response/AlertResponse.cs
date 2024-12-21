@@ -1,7 +1,7 @@
 using System.Text.Json.Serialization;
-using OSS.Core.Model;
+using OpenSky.Core.Model;
 
-namespace OSS.Core.Response;
+namespace OpenSky.Core.Response;
 
 /// <summary>
 /// Represents the response containing alert information.

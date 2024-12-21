@@ -1,6 +1,6 @@
 using System.Text.Json.Serialization;
 
-namespace OSS.Core.Model;
+namespace OpenSky.Core.Model;
 
 /// <summary>
 /// Forecast API and Alerts API returns alerts and warnings issued by government agencies (USA, UK, Europe and Rest of the World) as an array if available for the location provided through the Forecast API and Alerts API.

@@ -1,6 +1,6 @@
 using System.Text.Json.Serialization;
 
-namespace OSS.Core.Model;
+namespace OpenSky.Core.Model;
 
 /// <summary>
 /// Represents a weather condition with text, icon, and code.

@@ -1,4 +1,4 @@
-namespace OSS.Core.Model;
+namespace OpenSky.Core.Model;
 
 /// <summary>
 /// Language codes.

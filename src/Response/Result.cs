@@ -1,4 +1,4 @@
-namespace OSS.Core.Response;
+namespace OpenSky.Core.Response;
 
 /// <summary>
 /// Represents the result of an operation, containing the response, success status, and error information.

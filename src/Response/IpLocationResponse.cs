@@ -1,7 +1,7 @@
 using System.Text.Json.Serialization;
-using OSS.Core.Converter;
+using OpenSky.Core.Converter;
 
-namespace OSS.Core.Response;
+namespace OpenSky.Core.Response;
 
 /// <summary>
 /// Represents an IP location with various geographical and network details.

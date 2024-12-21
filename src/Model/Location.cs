@@ -1,6 +1,6 @@
 using System.Text.Json.Serialization;
 
-namespace OSS.Core.Model;
+namespace OpenSky.Core.Model;
 
 /// <summary>
 /// Location object is returned with each API response. It is actually the matched location for which the information has been returned.

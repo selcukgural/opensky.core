@@ -1,7 +1,7 @@
 using System.Text.Json;
 using System.Text.Json.Serialization;
 
-namespace OSS.Core.Converter;
+namespace OpenSky.Core.Converter;
 
 /// <summary>
 /// Converts JSON string values to boolean objects and vice versa.

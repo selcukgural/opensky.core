@@ -1,6 +1,6 @@
 using System.Text.Json.Serialization;
 
-namespace OSS.Core.Response;
+namespace OpenSky.Core.Response;
 
 /// <summary>
 /// Represents a search result containing location information.

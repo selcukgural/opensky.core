@@ -1,4 +1,4 @@
-namespace OSS.Core.Service.Internal;
+namespace OpenSky.Core.Service.Internal;
 
 /// <summary>
 /// Specifies the format in which the response should be returned.

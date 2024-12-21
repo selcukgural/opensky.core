@@ -1,4 +1,4 @@
-namespace OSS.Core.Service.Internal;
+namespace OpenSky.Core.Service.Internal;
 
 /// <summary>
 /// Represents the base class for resources with XML and JSON properties.

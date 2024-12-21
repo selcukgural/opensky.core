@@ -1,4 +1,4 @@
-namespace OSS.Core.Option;
+namespace OpenSky.Core.Option;
 
 /// <summary>
 /// Represents the options for the OpenSky service.

@@ -2,7 +2,7 @@ using System.Net;
 using System.Text.Json.Serialization;
 using System.Xml.Serialization;
 
-namespace OSS.Core.Response;
+namespace OpenSky.Core.Response;
 
 /// <summary>
 /// API Error Codes.

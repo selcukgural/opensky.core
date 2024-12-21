@@ -1,6 +1,6 @@
 using System.ComponentModel;
 
-namespace OSS.Core.Model;
+namespace OpenSky.Core.Model;
 
 /// <summary>
 /// Specifies whether to include air quality information.

@@ -1,6 +1,6 @@
 using System.Collections.Concurrent;
 
-namespace OSS.Core.Service.Internal;
+namespace OpenSky.Core.Service.Internal;
 
 /// <summary>
 /// Represents a collection of query parameters for HTTP requests.
