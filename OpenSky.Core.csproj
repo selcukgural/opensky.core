@@ -17,6 +17,7 @@
         <PackageReadmeFile>README.md</PackageReadmeFile>
         <AssemblyName>OpenSky.Core</AssemblyName>
         <RootNamespace>OpenSky.Core</RootNamespace>
+        <Version>1.0.1</Version>
     </PropertyGroup>
 
     <ItemGroup>

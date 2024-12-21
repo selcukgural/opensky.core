@@ -17,11 +17,11 @@ This project is an excellent tool for developers looking to integrate weather da
 
 .NET CLI:
 ```bash
-  dotnet add package OpenSky.Core --version 1.0.0 
+  dotnet add package OpenSky.Core --version 1.0.1
 ```
 Package Manager
 ```bash
-  Install-Package OpenSky.Core -Version 1.0.0
+  Install-Package OpenSky.Core -Version 1.0.1
 ```
 
 ### Example Usage
@@ -55,7 +55,7 @@ if (result.IsSuccess)
 }
 else
 {
-    Console.WriteLine($"Error: {result.Error.Message}");
+    Console.WriteLine($"Error: {result.Error!.Message}");
 }
 ```
 
