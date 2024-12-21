@@ -9,7 +9,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <None Update="Open Sharp Sky logo.png">
+      <None Update="logo.png">
         <Pack>True</Pack>
         <PackagePath></PackagePath>
       </None>
