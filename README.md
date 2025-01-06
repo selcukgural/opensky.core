@@ -23,6 +23,7 @@ Package Manager
 ```bash
   Install-Package OpenSky.Core -Version 1.0.1
 ```
+Also, you can use [OpenSky.AspNetCore](https://github.com/selcukgural/opensky.aspnetcore) package for your web projects.
 
 ### Example Usage
 
